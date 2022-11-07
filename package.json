@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sanjib-kumar-mandal/capacitor-plugins.git.git"
+    "url": "https://github.com/sanjib-kumar-mandal/app-core-capacitor.git"
   },
   "bugs": {
-    "url": "https://github.com/sanjib-kumar-mandal/capacitor-plugins.git/issues"
+    "url": "https://github.com/sanjib-kumar-mandal/app-core-capacitor/issues"
   },
   "keywords": [
     "capacitor",
