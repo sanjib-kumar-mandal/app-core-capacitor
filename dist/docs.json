@@ -1,0 +1,185 @@
+{
+  "api": {
+    "name": "AppCorePlugin",
+    "slug": "appcoreplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "getAppInfo",
+        "signature": "() => Promise<AppInfo>",
+        "parameters": [],
+        "returns": "Promise<AppInfo>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "AppInfo"
+        ],
+        "slug": "getappinfo"
+      },
+      {
+        "name": "device",
+        "signature": "() => Promise<DeviceResult>",
+        "parameters": [],
+        "returns": "Promise<DeviceResult>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "DeviceResult"
+        ],
+        "slug": "device"
+      },
+      {
+        "name": "getDeviceCurrentTheme",
+        "signature": "() => Promise<any>",
+        "parameters": [],
+        "returns": "Promise<any>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "getdevicecurrenttheme"
+      },
+      {
+        "name": "copyText",
+        "signature": "(inputData: { text: string; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "inputData",
+            "docs": "",
+            "type": "{ text: string; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "copytext"
+      },
+      {
+        "name": "pasteText",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "pastetext"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [
+    {
+      "name": "AppInfo",
+      "slug": "appinfo",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "versionName",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "any"
+        },
+        {
+          "name": "versionCode",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "any"
+        },
+        {
+          "name": "packageName",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "any"
+        },
+        {
+          "name": "lastUpdateTime",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "any"
+        },
+        {
+          "name": "appInfo",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "any"
+        }
+      ]
+    },
+    {
+      "name": "DeviceResult",
+      "slug": "deviceresult",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "uuid",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "any"
+        },
+        {
+          "name": "model",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string | undefined"
+        },
+        {
+          "name": "productName",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string | undefined"
+        },
+        {
+          "name": "manufacturer",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "any"
+        },
+        {
+          "name": "serial",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "any"
+        },
+        {
+          "name": "osVersion",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "any"
+        },
+        {
+          "name": "timeZone",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "any"
+        },
+        {
+          "name": "isVirtual",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "boolean | undefined"
+        }
+      ]
+    }
+  ],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
